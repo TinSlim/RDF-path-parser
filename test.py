@@ -44,7 +44,6 @@ def get_query(entidades,largo_camino):
 	return big_query
 
 if __name__ == '__main__':
-	print("ok")
 	entidad_1 = input("Primera entidad (ej wd:214): ")
 	entidad_2 = input("Segunda entidad (ej wd:214): ")
 	largo_camino = int(input("Largo máximo de los caminos (ej 3): "))
