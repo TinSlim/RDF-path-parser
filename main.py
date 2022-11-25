@@ -3,6 +3,8 @@
 
 import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
+import rdflib
+
 
 #endpoint_url = "https://query.wikidata.org/sparql"
 
@@ -13,6 +15,8 @@ def get_results(endpoint_url, query):
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     return sparql.query().convert()
+
+
 
 
 #results = get_results(endpoint_url, query)

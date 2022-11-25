@@ -43,6 +43,10 @@ def to_nt_file(filas):
 
   with open('output.nt', 'w') as f:
     for fila in filas:
-      v0 = fila[0].replace('wd:', 'http://www.wikidata.org/entity/')
-      v2 = fila[2].replace('wd:', 'http://www.wikidata.org/entity/')
+      if 'wd:' in fila[0] or 'wd:' in fila[2]: 
+        v0 = fila[0].replace('wd:', 'http://www.wikidata.org/entity/')
+        v2 = fila[2].replace('wd:', 'http://www.wikidata.org/entity/')
+      else:
+        v0 = fila[0].replace('<', '').replace('>', '') 
+        v2 = fila[2].replace('<', '').replace('>', '')
       f.write('<{}> <{}> <{}> .\n'.format(v0, fila[1], v2))
