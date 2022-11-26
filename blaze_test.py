@@ -43,10 +43,10 @@ def get_query(entidades,largo_camino):
 	return big_query, lista_aristas
 
 if __name__ == '__main__':
-	#entidad_1 = input("Primera entidad (ej wd:214): ")
-	entidad_1 = 'wd:Q13'
-	#entidad_2 = input("Segunda entidad (ej wd:214): ")
-	entidad_2 = 'wd:Q34'
+	entidad_1 = input("Primera entidad (ej wd:214): ")
+	#entidad_1 = 'wd:Q13'
+	entidad_2 = input("Segunda entidad (ej wd:214): ")
+	#entidad_2 = 'wd:Q34'
 	largo_camino = int(input("Largo máximo de los caminos (ej 3): "))
 	print("\n\n")
 	#print(get_query([entidad_1, entidad_2],largo_camino))
