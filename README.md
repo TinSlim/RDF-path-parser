@@ -12,7 +12,7 @@
 
 ### Con grafo Propio
 
-Para esto se necesita descargar la última version de blazegraph. La puede conseguir del siguiente link: [https://github.com/blazegraph/database/wiki/Main_Page]
+Para esto se necesita descargar la última version de blazegraph. La puede conseguir del siguiente link: [link](https://github.com/blazegraph/database/wiki/Main_Page)
 
 1. Iniciar el servidor de blazegraoh con el comando `java -server -Xmx4g -jar blazegraph.jar`.
 2. Cargar un grafo desde la interfaz de blazegraph en la pestaña Update.
