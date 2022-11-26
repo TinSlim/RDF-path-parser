@@ -20,3 +20,9 @@ Para esto se necesita descargar la última version de Blazegraph. La puede conse
 4. Escribir segunda entidad en el formato **wd:{entidad}**, luego apretar **ENTER**.
 5. Escribir largo del camino buscado con un número entero, luego apretar **ENTER**.
 6. Esperar, el resultado se entregará en el archivo `output.nt`.
+
+### Autores:
+
+* Bastián Pezoa [@bpezoav](https://github.com/bpezoav)
+* Cristóbal Torres [@TinSlim](https://github.com/TinSlim)
+* Cristian Carrión [@ccarrions](https://github.com/ccarrions)
